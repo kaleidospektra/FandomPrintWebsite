@@ -106,14 +106,14 @@ header {
 }
 
 .main_menu_item a:hover {
-	color: red;
+	color: #ff1a1a;
 	text-decoration: none;
 	transition: all.6s ease;
 	-o-transition: all.6s ease;
 	-ms-transition: all.6s ease;
 	-moz-transition: all.6s ease;
 	-webkit-transition: all.6s ease;
-	border-bottom: 2px solid red;
+	
 }
 
 @media (max-width: 1000px) {
@@ -168,7 +168,7 @@ footer {
 
 .social {
 	display: flex;
-	margin-right: 50px;
+	margin-right: 5%;
 }
 
 .social a {
@@ -189,7 +189,8 @@ footer {
 }
 
 .social a:hover {
-	opacity: 0.5;
+	color: red;
+	background-color: #ffffff;
 	transition: all.6s ease;
 	-o-transition: all.6s ease;
 	-ms-transition: all.6s ease;
