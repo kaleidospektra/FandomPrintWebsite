@@ -110,7 +110,7 @@ header {
 }
 
 .main_menu_item a:hover {
-	color: #9C8B71;
+	color: red;
 	border-bottom: 1px solid #9C8B71;
 	border-top: 1px solid #9C8B71;
 	text-decoration: none;
@@ -239,7 +239,7 @@ footer {
 }
 
 .social a:hover {
-	color: #9C8B71;
+	color: red;
 	background-color: #ffffff;
 	transition: all.6s ease;
 	-o-transition: all.6s ease;
