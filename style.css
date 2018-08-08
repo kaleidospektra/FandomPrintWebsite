@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Galada|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 /* Общие стили для тегов*/
 * {
@@ -152,6 +153,76 @@ header {
 /*Стили для тела страницы*/
 .site_body {
 	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*Стили ля слайдера и информационных панелей*/
+
+.slider_and_actions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.action_container {
+	width: 25%;
+	margin-right: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.action {
+	height: 30%;
+	border: 1px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 5px;
+}
+
+.action p {
+	font-family: 'Playfair Display', serif;
+}
+
+.action_header {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.action:hover {
+	color: white;
+	background-color: #4C5866;
+	box-shadow: 5px 5px darkgrey;
+}
+
+/*Стиль для заголовков на главной странице*/
+
+.site_body_header p {
+	font-size: 2em;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*Стили для галереи на главной странице*/
+
+.gallery {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.gallery_item {
+	width: 30%;
 }
 
 /*Стили для смартфонов и планшетов*/
